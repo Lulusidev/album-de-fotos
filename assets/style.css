@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap');
+
+body {
+        margin:30px;
+        padding:35px;
+
+        background-image: url("back_white.jpg");
+        background-size: 100%;
+        background-repeat: repeat-y;
+        text-align: center;
+    }
+
+h1 {
+    font-family: 'Gaegu',sans-serif;
+    font-size:50px;
+    margin: 40px;
+    padding: 40px;
+}
+
+.album p {
+    color:black;
+    font-family:'Gaegu',sans-serif;
+    font-size:30px;
+
+}
+
+.album img {
+    border: 5px solid white ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    width:30em;
+}
