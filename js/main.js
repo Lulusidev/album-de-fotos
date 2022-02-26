@@ -6,10 +6,10 @@ function click_button_back()
 }
 
 function change_background(index){
-    const backgrounds = ["assets/back_white.jpg",
-    "assets/back_dogs0.jpg",
-    "assets/back_rose.png",
-    "assets/back_dogs1.jpg"];
+    const backgrounds = ["assets/src/back_white.jpg",
+    "assets/src/back_dogs0.jpg",
+    "assets/src/back_rose.png",
+    "assets/src/back_dogs1.jpg"];
 
     index = index%backgrounds.length;
     let background = backgrounds[index];

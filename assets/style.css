@@ -4,7 +4,7 @@ body {
         margin:30px;
         padding:35px;
 
-        background-image: url("back_white.jpg");
+        background-image: url("src/back_white.jpg");
         background-size: 100%;
         background-repeat: repeat-y;
         text-align: center;
@@ -27,5 +27,16 @@ h1 {
 .album img {
     border: 5px solid white ;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
-    width:30em;
+    width:25em;
+}
+
+.album .button_back button {
+    font-family: 'Gaegu',sans-serif;
+    margin: 20px;
+    background-color: black;
+    color:whitesmoke;
+    border-radius: 4px;
+    width:25%;
+    height: auto;
+    font-size: 16px;
 }
